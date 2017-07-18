@@ -1,0 +1,58 @@
+body {width: 99%;}
+.logo {
+	background-image: url(https://www.google.ru/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
+	background-repeat: no-repeat;
+	width: 280px;
+	height: 200px;
+	margin:0 auto;
+	position:relative;
+	top:12em;
+}
+#sf {
+	width:590px;
+	height:40px;
+	border:1px solid #DCDCDC;
+}
+.content {
+	position: relative;
+	top:7em;
+	width: 590px;
+	margin:0 auto;
+}
+.cb {
+	position: relative;
+	top:2em;
+	width: 260px;
+	margin:0 auto;
+}
+input[type=button]:hover {
+	border:1px solid #A9A9A9;
+	color: black;
+
+}
+.bs {
+	padding: 10px 15px 10px 15px;
+	border: none;
+	font-weight: bold;
+	color:#757575;
+	background-color: #f2f2f2;
+}
+.footer {
+	border-top:1px solid #D3D3D3;
+	position:fixed;
+	margin-top:24%;
+	width: 99%;
+	background-color:#f2f2f2;
+	height:50px;
+}
+.cl {float:left;}
+.cr {float:right;}
+.footer > div {
+	margin-top:0.7em;
+}
+.footer > div > a {
+	color: gray;
+	text-decoration: none;
+	padding:5px 15px 5px 15px;
+	margin-top:5px;
+}
